@@ -1,0 +1,39 @@
+.events-display {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2rem;
+  margin-bottom: -3rem;
+}
+
+#raster {
+  margin-right: 1rem;
+}
+
+#raster,
+#list {
+  background-color: #ffffff00;
+  border: none;
+}
+
+#raster,
+#list {
+  width: 3rem;
+  border: 3px solid black;
+  padding: 0.5rem;
+}
+
+#raster:hover,
+#list:hover {
+  background-color: black;
+  fill: white;
+}
+
+#raster.filter__button--display--active {
+  background-color: black;
+  fill: white;
+}
+
+#list.filter__button--display--active {
+  background-color: black;
+  fill: white;
+}

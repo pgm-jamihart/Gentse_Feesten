@@ -1,0 +1,194 @@
+.carousel {
+  padding: 4rem 0 0 0;
+  overflow: hidden;
+}
+
+@media (min-width: 90rem) {
+  .carousel {
+    padding: 4rem 0rem 0rem 0rem;
+  }
+}
+
+.flex__carousel {
+  display: flex;
+  
+}
+
+.carousel__image {
+  width: 100%;
+  height: 45vw;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.2s ease;
+}
+
+@media (min-width: 90rem) {
+  .carousel__image {
+    height: 40rem;
+  }
+}
+
+.nav__carousel--flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 4.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  
+  padding: 1rem;
+}
+
+@media (min-width: 30rem) {
+  .nav__carousel--flex {
+    transform: translateY(-3.5rem);
+  }
+}
+
+.nav__carousel--flex p {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+#prev, 
+#next {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+#next {
+  margin-right: 1rem;
+}
+
+.carousel--flex--pijltjes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.carousel--flex--pijltjes svg {
+  width: 1.4rem;
+  
+}
+
+.arrow--left {
+  transform: rotate(180deg);
+  
+}
+
+@media (min-width: 64rem) {
+  .twitter {
+    padding: 0 ;
+  }
+}
+
+@media (min-width: 90rem) {
+  .twitter {
+    padding: 4rem 8rem 0rem 8rem;
+  }
+}
+
+.twitter__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (min-width: 64rem) {
+  .twitter__container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 64rem) {
+  .twitter__container--image {
+    width: 50%;
+  }
+}
+
+.twitter__image {
+  width: 100%;
+  height: 65vw;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 35rem) {
+  .twitter__image {
+    height: 45vw;
+  }
+}
+
+@media (min-width: 64rem) {
+  .twitter__image {
+    height: 25vw;
+  }
+}
+
+@media (min-width: 90rem) {
+  .twitter__image {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .twitter__container--content {
+    width: 43%;
+  }
+}
+
+.twitter__svg--flex {
+  display: flex;
+  align-items: flex-start;
+}
+
+.svg__twitter--beleef {
+  width: 10rem;
+  margin-right: 0.5rem;
+}
+
+.svg__twitter--icon {
+  width: 3rem;
+  transform: translateY(-0.75rem);
+}
+
+.at-genstefeesten {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+@media (min-width: 64rem) {
+  .twitter__at--en--time {
+    margin-top: 1.5rem;
+  }
+
+  .twitter__at--en--time strong {
+    margin-right: 3rem;
+  }
+}
+
+@media (min-width: 80rem) {
+  .twitter__at--en--time {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  .twitter__at--en--time {
+    margin-top: 10rem;
+  }
+}
+
+.bullet--twitter {
+  width: 7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

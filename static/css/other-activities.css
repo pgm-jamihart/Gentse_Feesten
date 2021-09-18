@@ -1,0 +1,73 @@
+.other-activities {
+  background-color: black;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  padding: 0;
+  margin-top: 4rem;
+}
+
+.container__other-activities {
+  color: white;
+  padding: 6rem 2rem;
+  
+}
+
+@media (min-width: 52rem) {
+  .container__other-activities {
+    margin-left: auto;
+    margin-right: auto;
+    width: 44.5rem;
+    max-width: 100%;
+    
+  }
+}
+
+.container__other-activities h2 {
+  font-size: 1.9rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 52rem) {
+  .container__other-activities h2 {
+    font-size: 3rem;
+  }
+}
+
+.flex-container__other-activities__input--button {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.flex-container__other-activities__input--button input {
+  font-family: 'Raleway';
+  padding: 0.6rem;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border: none;
+  padding-right: 3rem;
+  background: #e9e9e9;
+}
+
+.flex-container__other-activities__input--button button {
+  background-color: black;
+  border: none;
+  padding: 0.4rem 1.75rem;
+  transition: all 0.2s ease;
+}
+
+.flex-container__other-activities__input--button button:hover {
+  background-color: white;
+}
+
+.flex-container__other-activities__input--button svg{
+  width: 1.4rem;
+  fill: white;
+  transition: all 0.2s ease;
+}
+
+.flex-container__other-activities__input--button button:hover svg{
+  fill: black;
+}

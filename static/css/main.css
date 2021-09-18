@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  /*overflow-x: hidden;*/
+}
+
+header {
+  position: relative;
+}
+
+@media (min-width: 80rem) {
+  header {
+    background-color: black;
+  }
+}
+
+footer {
+  padding-top: 4rem;
+}
+
+section {
+  padding: 4rem 1.5rem 0rem 1.5rem;
+}
+
+@media (min-width: 90rem) {
+  section {
+    padding: 4rem 8rem 0rem 8rem;
+  }
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 0;
+  display: inline;
+  margin-right: 3rem;
+  word-break: break-word;
+}
+
+h4 {
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:focus,
+button:focus
+input:focus {
+  outline: 2px dotted red;
+  outline-offset: 0.05rem;
+}
+
+@media (min-width: 90rem) {
+  .layout__bigscreen {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+}
+
+
+

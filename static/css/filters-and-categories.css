@@ -1,0 +1,133 @@
+#filters-and-categories {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.container__filters {
+  margin-right: 1.5rem;
+}
+
+@media (min-width: 64rem) {
+  .container__filters {
+    width: 20rem;
+  }
+}
+
+.filters__list--item {
+  width: -moz-fit-content!important;
+}
+
+.filters__list--item:first-child {
+  background-color: black;
+  color: white;
+}
+
+.filters__list--item:first-child svg {
+  fill: white;
+}
+
+.filters__list--item:last-child {
+  border: 3px solid black;
+  font-size: 0.75rem;
+}
+
+.filters__list--item:hover {
+  color: white;
+}
+
+@media (min-width: 64rem) {
+  .filters__list--item:last-child {
+    font-size: 1rem;
+  }
+}
+
+.filters__list--item {
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  border: 3px solid black;
+  margin-bottom: 0.65rem;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+@media (min-width: 64rem) {
+  .filters__list--item {
+    width: fit-content;
+  }
+}
+
+.filters__list--item:hover {
+  background-color: black;
+}
+
+.filters__list--item:hover svg {
+  fill: white;
+}
+
+.filters__list--item--svg svg {
+  width: 2rem;
+}
+
+@media (min-width: 64rem) {
+  .filters__list--item--svg svg {
+    margin-right: 1rem;
+  }
+}
+
+.filters__list--item p {
+  display: none;
+}
+
+@media (min-width: 64rem) {
+  .filters__list--item p {
+    display: block;
+    margin: 0;
+  }
+}
+
+.container__category {
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 2rem;
+}
+
+.category__list {
+  column-count: 1;
+  word-break: break-word;
+}
+
+@media (min-width: 36rem) {
+  .category__list {
+    column-gap: 2rem;
+    column-count: 2;
+    padding: 2.5rem;  
+  }
+}
+
+.category__list li {
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.category__list a {
+  color: white;
+  display: block;
+}
+
+.category__list a:hover {
+  text-decoration: underline;
+}
+
+.scroll-to-categories__svg {
+  width: 1.5rem; 
+  transform: translateY(0.2rem);
+  transition: all 0.2s ease;
+}
+
+.scroll-to-categories__svg:hover {
+  transform: translateY(0rem);
+}
